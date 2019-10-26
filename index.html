@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>2B || (2B)'</title>
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="page-banner">
+          <h1 class="title display-1 know">2B || (2B)'</h1>
+          <form id="search-box">
+            <input
+              type="text"
+              placeholder="Search Tasks to filter"
+              class="know"
+            />
+          </form>
+        </div>
+      </header>
+      <div id="task-list" class="jumbotron">
+        <h2
+          class="title know  font-weight-bold  ml-5 text-uppercase text-underline"
+        >
+          Tasks
+        </h2>
+        <ul>
+          <!-- Tasks Go here -->
+        </ul>
+      </div>
+      <div class="nex">
+        <form id="add-task">
+          <input
+            type="text"
+            placeholder="Add task..."
+            class="know"
+            maxlength="55"
+          />
+          <button class="btn btn-lg know btn-success">
+            Add
+          </button>
+        </form>
+        <span class="feedback"></span>
+
+        <form class="formSub">
+          <input type="checkbox" />
+          <span class="didX text-info know"
+            >By clicking here you agree to that the data supplied is valid and
+            wish to continue</span
+          >
+          <br />
+          <small class="lead hint mt-5 know text-center"
+            >Saved Entries when out of view will return when you uncheck</small
+          ><br />
+          <button class="btn btn-outline-success btn-lg mb-4">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
